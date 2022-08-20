@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
 
   s.ios.vendored_framework = 'QNLiveSDK.framework'
 
-  spec.resource = 'QNImages.bundle'
+  spec.ios.resource_bundle = { 'QNLiveSDK' => '/QNImages/*.png' }
 
   s.dependency 'AFNetworking','~> 4.0.1'
   s.dependency 'Masonry','~> 1.1.0'
