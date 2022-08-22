@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) int isRecorde;
 
 //# 1-正在直播 2-未开始 3-主播不在 4-已结束
-@property (nonatomic,assign) NSInteger live_status;
+@property (nonatomic,assign) int live_status;
 
 /// 是否允许观看回放
 @property (nonatomic,assign) BOOL record_access;

@@ -46,15 +46,15 @@
 		</data>
 		<key>Headers/QNLiveRoomModel.h</key>
 		<data>
-		x1netzAflFCAFmwecUlYypm3iqU=
+		DsBTzLxa1IcS5Lx9DHrvhy+7ckw=
 		</data>
 		<key>Headers/QNLiveSDK.h</key>
 		<data>
-		njGgOJNWrUJQcBo9WmCCGX8aj0Q=
+		PXgfEhANl0KndOCJp+SoQS3OIk8=
 		</data>
 		<key>Headers/QNLiveSDKManager.h</key>
 		<data>
-		sRimLyTE61kRbtFdTUZ7AxbDkgQ=
+		jeyD0tW+T1nWGskvCiM6O8gueR8=
 		</data>
 		<key>Headers/QNLottery.h</key>
 		<data>
@@ -357,33 +357,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x1netzAflFCAFmwecUlYypm3iqU=
+			DsBTzLxa1IcS5Lx9DHrvhy+7ckw=
 			</data>
 			<key>hash2</key>
 			<data>
-			bMeBb3NuoN0vku9vzUW7nwffYKW+HjWxWimH8y9bkrU=
+			ECbUcZmtZod1NRtGyGxc7fUTj+VLiPIjokghBrLySd0=
 			</data>
 		</dict>
 		<key>Headers/QNLiveSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			njGgOJNWrUJQcBo9WmCCGX8aj0Q=
+			PXgfEhANl0KndOCJp+SoQS3OIk8=
 			</data>
 			<key>hash2</key>
 			<data>
-			3sQfFNVvnp5IvO6903fvFQvrxzbK0MqhvVtZc3PqKNM=
+			YblI8PZwyZ96GKyJ1YaGrWCWKYrn17TeGCBS4NjtABk=
 			</data>
 		</dict>
 		<key>Headers/QNLiveSDKManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sRimLyTE61kRbtFdTUZ7AxbDkgQ=
+			jeyD0tW+T1nWGskvCiM6O8gueR8=
 			</data>
 			<key>hash2</key>
 			<data>
-			35g7mu++80GOb3aoZnWed8wJZEwt3J+ZxfDqrSz/XlM=
+			uUCTHNylTrUSUxLCdtE4j3fAMijsc6YmxvYs8k8ONq4=
 			</data>
 		</dict>
 		<key>Headers/QNLottery.h</key>

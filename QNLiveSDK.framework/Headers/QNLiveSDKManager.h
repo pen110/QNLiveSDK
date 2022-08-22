@@ -15,7 +15,7 @@
 //聊天室
 #import "QNChat.h"
 //播放器
-#import "PLPlayerView.h"
+#import <PLPlayerKit/PLPlayerKit.h>
 //商品
 #import "QNProduct.h"
 //抽奖
@@ -173,7 +173,10 @@ typedef void ( ^successBloc) (id content);
 @property (nonatomic,strong)QNChat *_Nullable chat;
 
 /**播放器*/
-@property (nonatomic,strong)PLPlayerView *_Nullable players;
+@property(nonatomic,strong) PLPlayer *player;
+//初始化播放器
+-(PLPlayer *)initializePlayer;
+
 
 /**抽奖*/
 @property (nonatomic,strong)QNLottery *_Nullable lottery;
@@ -189,9 +192,9 @@ typedef void ( ^successBloc) (id content);
 
 @property (nonatomic,strong)QNVotes *_Nullable votes;
 
-- (void)initPlayerWithFrame:(CGRect)frame;
+//- (void)initPlayerWithFrame:(CGRect)frame;
 
--(void)play;
+//-(void)play;
 
 /// 断开
 -(void)close;

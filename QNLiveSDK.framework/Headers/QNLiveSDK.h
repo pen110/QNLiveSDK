@@ -27,8 +27,6 @@ FOUNDATION_EXPORT const unsigned char QNLiveSDKVersionString[];
 #import <QNLiveSDK/MessageModel.h>
 //直播间model
 #import <QNLiveSDK/QNLiveRoomModel.h>
-//播放器
-#import <QNLiveSDK/PLPlayerView.h>
 //聊天室
 #import <QNLiveSDK/QNChat.h>
 //直播间
