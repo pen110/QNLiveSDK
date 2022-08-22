@@ -57,7 +57,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *ws_type;
 @property(nonatomic,strong) NSString *type;
 @property(nonatomic,assign) BOOL status;
+/**用户id*/
 @property(nonatomic,strong) NSString* userId;
+/**用户头像*/
+@property(nonatomic,strong) NSString* image;
+/**用户昵称*/
+@property(nonatomic,strong) NSString* nickname;
+
 /** 奖品id */
 @property(nonatomic,strong) NSString *prize_id;
 /** 奖品名字 */
@@ -108,6 +114,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *prizeId;
 @property(nonatomic,strong) NSString *red_id;
 @property(nonatomic,strong) NSString *nickname;
+@property(nonatomic,strong) NSString *name;
 @property(nonatomic,strong) NSString *giftImg;
 @property(nonatomic,strong) NSString *userName;
 @property(nonatomic,strong) NSString *giftCount;

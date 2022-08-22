@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "BaseMessageModel.h"
 NS_ASSUME_NONNULL_BEGIN
-
+typedef void ( ^successBlock) (id content);
 @class QNChat;
 @protocol QNChatDelegate <NSObject>
 
@@ -70,6 +70,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param callback 回调
 -(void)sendImageMessage:(UIImage *)image callback:(void (^)(BOOL, NSError * _Nullable))callback;
 
+/// 删除某某进到直播间的消息
+/// @param successBlock successBloc
+/// @param failure failure
+- (void)delMessageWithDict:(NSDictionary *)dict successBloc:(successBlock)successBlock failure:(void (^)(NSError * _Nonnull))failure;
 
 @end
 

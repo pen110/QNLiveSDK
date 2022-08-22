@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 //发送时间
 @property(nonatomic,assign) int64_t sendTime;
 @property(nonatomic,strong)UIColor *color;
-
+//引用
 @property(nonatomic,strong) NSString* msg;
 @property(nonatomic,strong) ReferenceInfo *referenceInfo;
 @property(nonatomic,strong) NSString *type;

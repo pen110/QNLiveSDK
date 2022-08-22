@@ -9,7 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface QNOnLineNumModel : NSObject
+
+@interface NumListModel : NSObject
 @property (nonatomic,strong)NSString *address;
 @property (nonatomic,strong)NSString *city;
 @property (nonatomic,strong)NSString *company;
@@ -25,5 +26,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)NSString *position;
 @property (nonatomic,assign)int type;
 @end
+
+@interface QNOnLineNumModel : NSObject
+
+@property (nonatomic,assign)int code;
+@property (nonatomic,assign)int counts;
+@property (nonatomic,strong)NSString *msg;
+@property (nonatomic,strong)NSString *next;
+@property (nonatomic,assign)int pages;
+@property (nonatomic,strong)NSString *previous;
+@property (nonatomic,strong)NSArray<NumListModel *> *result;
+@end
+
 
 NS_ASSUME_NONNULL_END

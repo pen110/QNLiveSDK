@@ -8,11 +8,6 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-//@interface NoticeDataModel : NSObject
-//@property (nonatomic,strong) NSString *content;
-//@property (nonatomic,assign) int noticeId;
-//@property (nonatomic,assign) int type;
-//@end
 
 @interface QNLiveRoomModel : NSObject
 /** 1是直播，2直播生成的回放，3是录播，*/
