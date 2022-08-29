@@ -99,6 +99,25 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) int type;
 @end
 
+//主播信息
+@interface QNHostUserInfo : NSObject
+@property (nonatomic,strong) NSString *nickname;
+@property (nonatomic,strong) NSString *headImageUrl;
+@property (nonatomic,strong) NSString *phone;
+@property (nonatomic,strong) NSString *department;
+@property (nonatomic,strong) NSString *type;
+@property (nonatomic,strong) NSString *name;
+@property (nonatomic,strong) NSString *company;
+@property (nonatomic,strong) NSString *position;
+@property (nonatomic,strong) NSString *city;
+@property (nonatomic,strong) NSString *address;
+@property (nonatomic,strong) NSString *job_num;
+@property (nonatomic,strong) NSString *email;
+@property (nonatomic,strong) NSString *owner_id;
+@property (nonatomic,strong) NSString *intro;
+@property (nonatomic,strong) NSString *third_user_id;
+@end
+
 @interface CourseModel : NSObject
 
 /// 是否开启弹幕
@@ -128,14 +147,19 @@ NS_ASSUME_NONNULL_BEGIN
 /// 是否开启英文观看
 @property (nonatomic,assign) BOOL is_open_english;
 
+
+@property (nonatomic,strong)QNHostUserInfo *userinfo;
+
 /// 直播名称
 @property (nonatomic,strong) NSString *title;
 
 /// 直播开始时间
 @property (nonatomic,strong) NSString *start_time;
 
-/// 是否开启邀请卡
+///分享图片地址
 @property (nonatomic,strong) NSString *share_card;
+
+@property (nonatomic,strong) NSString *share_url;
 
 /// 横屏竖屏 1竖屏 2 横屏
 @property (nonatomic,assign) int play_mode;
@@ -312,6 +336,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *nickname;
 @property(nonatomic,strong) NSString *shareUserId;
 @property(nonatomic,strong) NSString *image;
+@property(nonatomic,strong) NSString *third_user_id;
 @property(nonatomic,assign) int invite_count;
 @property(nonatomic,assign) NSInteger index;
 @end

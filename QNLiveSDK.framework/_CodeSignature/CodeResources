@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/BaseMessageModel.h</key>
 		<data>
-		j71oyaH+C2IrlhTX94S84zvpbqg=
+		CNz4CdCXF9aectRxLwvlyNgwsYg=
 		</data>
 		<key>Headers/CourseModel.h</key>
 		<data>
-		Va877KOx8LbLj4Cf8T/yJyt9T9E=
+		v0nnjfKlvPWFZIVYyJ2hMBsbk0s=
 		</data>
 		<key>Headers/EnterpriseModel.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MessageModel.h</key>
 		<data>
-		q0+X8AWms8j57XYF5KFtLnDGRbw=
+		sfupdWqv96Y4D5x9joIY4VLY2CQ=
 		</data>
 		<key>Headers/PLPlayerView.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/QNChat.h</key>
 		<data>
-		zb0+5uF5ICKuLjOkwMdxLOmH/pw=
+		iAv7MQRWR40Z13anlUjsBsxQAzw=
 		</data>
 		<key>Headers/QNLiveRoom.h</key>
 		<data>
@@ -46,15 +46,15 @@
 		</data>
 		<key>Headers/QNLiveRoomModel.h</key>
 		<data>
-		DsBTzLxa1IcS5Lx9DHrvhy+7ckw=
+		lxF/YE66HSVE4SK9OyHrxf3DQXg=
 		</data>
 		<key>Headers/QNLiveSDK.h</key>
 		<data>
-		PXgfEhANl0KndOCJp+SoQS3OIk8=
+		fYp7ThTnSEPAVpJpfKUbwTZ7lSk=
 		</data>
 		<key>Headers/QNLiveSDKManager.h</key>
 		<data>
-		jeyD0tW+T1nWGskvCiM6O8gueR8=
+		Abr8da9F/VZgAXjY7VIBS+rFplc=
 		</data>
 		<key>Headers/QNLottery.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/QNOnLineNumModel.h</key>
 		<data>
-		GQHJCtiV1WZa+Add9op1xJiae7g=
+		jbFUkcHnI3J6bPetGszRyO0a3K4=
 		</data>
 		<key>Headers/QNProduct.h</key>
 		<data>
@@ -71,6 +71,10 @@
 		<key>Headers/QNQevVoteModel.h</key>
 		<data>
 		ziS/ltHY8S6T9stLtQQvzU85c7A=
+		</data>
+		<key>Headers/QNRankingGiftModel.h</key>
+		<data>
+		w/60MCihoESCZqPCV8Z1YlLAlyg=
 		</data>
 		<key>Headers/QNUserSign.h</key>
 		<data>
@@ -247,22 +251,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j71oyaH+C2IrlhTX94S84zvpbqg=
+			CNz4CdCXF9aectRxLwvlyNgwsYg=
 			</data>
 			<key>hash2</key>
 			<data>
-			P/ltopUEd27z1Egp4jGl/2ntTX2UXFLnSwnuRpuTLQk=
+			ixOWooJPXZ5lmYG46qbQwR1ZKhwZQmjXtlRB5hbPl0w=
 			</data>
 		</dict>
 		<key>Headers/CourseModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Va877KOx8LbLj4Cf8T/yJyt9T9E=
+			v0nnjfKlvPWFZIVYyJ2hMBsbk0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			wB14lZ+/k6Dr82XV3gzq/I/2QO1W5iYSJnCiz656Fng=
+			fo0+S5vWFGv7de7OWO6gf646USyLxVDI2Bws8vnCfuc=
 			</data>
 		</dict>
 		<key>Headers/EnterpriseModel.h</key>
@@ -280,11 +284,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q0+X8AWms8j57XYF5KFtLnDGRbw=
+			sfupdWqv96Y4D5x9joIY4VLY2CQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			UMcd+6aO+xA47Cu5EGNVFFVDOv8//s32T0zjLqHnmT4=
+			BlzbkLhz0Px1BhRz3k6ai8BJz46JDfXdXguDkEIwk/w=
 			</data>
 		</dict>
 		<key>Headers/PLPlayerView.h</key>
@@ -335,11 +339,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zb0+5uF5ICKuLjOkwMdxLOmH/pw=
+			iAv7MQRWR40Z13anlUjsBsxQAzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			loqAO+9nmAu+RhICWB1wGvcKfu6mh1KE7sZWSrT9t/0=
+			zqsLe5Np/eSm5579KY4SSJm4kxe+36ihBbIlaZUdi1w=
 			</data>
 		</dict>
 		<key>Headers/QNLiveRoom.h</key>
@@ -357,33 +361,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DsBTzLxa1IcS5Lx9DHrvhy+7ckw=
+			lxF/YE66HSVE4SK9OyHrxf3DQXg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ECbUcZmtZod1NRtGyGxc7fUTj+VLiPIjokghBrLySd0=
+			tJtxLmDnCEjZB7mOR6ZYGamglhKR7Wl55khJCfBLc+c=
 			</data>
 		</dict>
 		<key>Headers/QNLiveSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PXgfEhANl0KndOCJp+SoQS3OIk8=
+			fYp7ThTnSEPAVpJpfKUbwTZ7lSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			YblI8PZwyZ96GKyJ1YaGrWCWKYrn17TeGCBS4NjtABk=
+			tlGH9AJCtYN9jV3/lGAbznz2Cii1mzJbv+3lmqP8Bpw=
 			</data>
 		</dict>
 		<key>Headers/QNLiveSDKManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jeyD0tW+T1nWGskvCiM6O8gueR8=
+			Abr8da9F/VZgAXjY7VIBS+rFplc=
 			</data>
 			<key>hash2</key>
 			<data>
-			uUCTHNylTrUSUxLCdtE4j3fAMijsc6YmxvYs8k8ONq4=
+			XM2i7vsMpvPfkA3aUPmjR1jSJ6Ho0sgcZtmBHTRBZFs=
 			</data>
 		</dict>
 		<key>Headers/QNLottery.h</key>
@@ -401,11 +405,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GQHJCtiV1WZa+Add9op1xJiae7g=
+			jbFUkcHnI3J6bPetGszRyO0a3K4=
 			</data>
 			<key>hash2</key>
 			<data>
-			N/xvAEFJjoumdtYJymsRbuzqsroQCrZTRYUydbGFFJo=
+			2Etvo3Eo/gsbg0uwXGBWaVcV4eI3xmsoajY9cKE1XYQ=
 			</data>
 		</dict>
 		<key>Headers/QNProduct.h</key>
@@ -428,6 +432,17 @@
 			<key>hash2</key>
 			<data>
 			wamT41oke1437iKUR2XZQ+07k/y+X0limYkjXvaHZ1o=
+			</data>
+		</dict>
+		<key>Headers/QNRankingGiftModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w/60MCihoESCZqPCV8Z1YlLAlyg=
+			</data>
+			<key>hash2</key>
+			<data>
+			DB1WXxrChKgBQv+2IFAFmPunLHbGRI47uC6opk1S8jA=
 			</data>
 		</dict>
 		<key>Headers/QNUserSign.h</key>

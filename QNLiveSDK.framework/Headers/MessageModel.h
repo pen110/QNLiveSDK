@@ -57,6 +57,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *ws_type;
 @property(nonatomic,strong) NSString *type;
 @property(nonatomic,assign) BOOL status;
+@property(nonatomic,assign) int count;
 /**用户id*/
 @property(nonatomic,strong) NSString* userId;
 /**用户头像*/
@@ -89,6 +90,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**秒杀的时间*/
 @property (nonatomic,copy) NSString *seckill_time;
+
+@property (nonatomic,copy) NSString *third_user_id;
+
+//用户头像
+@property (nonatomic,copy) NSString *user_image;
+//礼物名字
+@property (nonatomic,copy) NSString *gift_name;
+//礼物图片
+@property (nonatomic,copy) NSString *gift_image;
+
 @end
 
 //引用的消息体

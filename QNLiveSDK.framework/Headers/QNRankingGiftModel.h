@@ -1,8 +1,8 @@
 //
-//  QNOnLineNumModel.h
+//  QNRankingGiftModel.h
 //  QNLiveSDK
 //
-//  Created by 潘欣 on 2022/8/9.
+//  Created by 潘欣 on 2022/8/29.
 //
 
 #import <Foundation/Foundation.h>
@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 
-@interface NumListModel : NSObject
+@interface QNUserInfo : NSObject
 @property (nonatomic,strong)NSString *address;
 @property (nonatomic,strong)NSString *city;
 @property (nonatomic,strong)NSString *company;
@@ -28,16 +28,20 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)int type;
 @end
 
-@interface QNOnLineNumModel : NSObject
+@interface QNRankResultModel : NSObject
+@property (nonatomic,strong)NSString *total_price_count;
+@property (nonatomic,strong)QNUserInfo *user_info;
+@end
 
+
+@interface QNRankingGiftModel : NSObject
 @property (nonatomic,assign)int code;
 @property (nonatomic,assign)int counts;
 @property (nonatomic,strong)NSString *msg;
 @property (nonatomic,strong)NSString *next;
 @property (nonatomic,assign)int pages;
 @property (nonatomic,strong)NSString *previous;
-@property (nonatomic,strong)NSArray<NumListModel *> *result;
+@property (nonatomic,strong)NSArray<QNRankResultModel *> *result;
 @end
-
 
 NS_ASSUME_NONNULL_END

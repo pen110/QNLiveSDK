@@ -132,6 +132,12 @@ typedef void ( ^successBloc) (id content);
 /// @param isShow isShow description
 - (void)manager:(QNLiveSDKManager *)manager isShowShopCart:(BOOL)isShow;
 
+/// 送礼通知
+/// @param manager manager description
+/// @param gift gift description
+-(void)qnManager:(QNLiveSDKManager *)manager sendGift:(nullable attModel *)gift;
+
+
 @end
 
 @interface QNLiveSDKManager : NSObject
@@ -164,6 +170,21 @@ typedef void ( ^successBloc) (id content);
 /// @param success success description
 /// @param failure failure description
 - (void)getOnlineNumberWithPage:(int)page success:(successBloc)success failure:(nullable void (^)(NSError * nullable))failure;
+
+/// 送礼物排行榜
+/// @param params liveId直播间Id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getRankingGift:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+//system/userinfo/
+- (void)systemSserinfoSuccess:(successBloc)success failure:(nullable void (^)(NSError * nullable))failure;
+
+/// 添加一个分享的链接，返回一个100*100 的image
+/// liveRoomInfo: error 此方法中返回share_card 和share_url
+/// @param url url description
+- (UIImage *)setupQRCodeImage:(NSString *)url;
+
 /**
  直播间信息，点赞，排行榜
  */

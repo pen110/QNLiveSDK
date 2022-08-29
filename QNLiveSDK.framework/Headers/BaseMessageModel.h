@@ -35,6 +35,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString* msg;
 @property(nonatomic,strong) ReferenceInfo *referenceInfo;
 @property(nonatomic,strong) NSString *type;
+
+@property(nonatomic,strong) NSString *third_user_id;//第三方id
 @end
 
 NS_ASSUME_NONNULL_END

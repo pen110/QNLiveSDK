@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+//#import "CourseModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QNLiveRoomModel : NSObject
@@ -69,6 +69,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 //公告
 @property (nonatomic,strong)NoticeDataModel *notice_data;
+
+///分享图片地址
+@property (nonatomic,strong) NSString *share_card;
+
+@property (nonatomic,strong) NSString *share_url;
+
+//主播信息
+@property (nonatomic,strong) QNHostUserInfo *userInfo;
 @end
 
 NS_ASSUME_NONNULL_END

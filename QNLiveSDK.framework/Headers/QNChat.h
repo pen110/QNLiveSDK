@@ -37,6 +37,13 @@ typedef void ( ^successBlock) (id content);
 //商品列表
 - (void)qnChatWithGooods;
 
+
+/// 送礼通知
+/// @param manager manager description
+/// @param gift gift description
+-(void)qnchat:(QNChat *)chat sendGift:(nullable attModel *)gift;
+
+
 @end
 
 @interface QNChat : NSObject
