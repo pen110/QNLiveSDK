@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface QNRankResultModel : NSObject
 @property (nonatomic,strong)NSString *total_price_count;
-@property (nonatomic,strong)QNUserInfo *user_info;
+@property (nonatomic,strong)NSDictionary *user_info;
 @end
 
 
