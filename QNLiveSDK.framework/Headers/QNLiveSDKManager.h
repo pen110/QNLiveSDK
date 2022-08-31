@@ -177,10 +177,9 @@ typedef void ( ^successBloc) (id content);
 /// @param failure failure description
 - (void)getRankingGift:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
-/// 添加一个分享的链接，返回一个100*100 的image
+/// 返回一个100*100 的image
 /// liveRoomInfo: error 此方法中返回share_card 和share_url
-/// @param url url description
-- (UIImage *)setupQRCodeImage:(NSString *)url;
+- (UIImage *)setupQRCodeImage;
 
 /**
  直播间信息，点赞，排行榜
