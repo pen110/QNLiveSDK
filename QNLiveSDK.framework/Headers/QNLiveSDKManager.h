@@ -137,6 +137,11 @@ typedef void ( ^successBloc) (id content);
 /// @param gift gift description
 -(void)qnManager:(QNLiveSDKManager *)manager sendGift:(nullable attModel *)gift;
 
+/// 打开红包 has_red = 1
+/// @param manager manager description
+/// @param redPacket redPacket description
+-(void)qnManager:(QNLiveSDKManager *)manager hasRedPacket:(nullable textModel *)redPacket;
+
 
 @end
 

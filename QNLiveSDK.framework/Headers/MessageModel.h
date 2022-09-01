@@ -58,6 +58,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *type;
 @property(nonatomic,assign) BOOL status;
 @property(nonatomic,assign) int count;
+
 /**用户id*/
 @property(nonatomic,strong) NSString* userId;
 /**用户头像*/
@@ -151,6 +152,9 @@ NS_ASSUME_NONNULL_BEGIN
 //引用发送的消息
 @property(nonatomic,strong) NSString *msg;
 @property(nonatomic,strong) ReferenceInfo *referenceInfo;
+
+/**是否打开红包*/
+@property(nonatomic,assign) int has_red;
 @end
 
 

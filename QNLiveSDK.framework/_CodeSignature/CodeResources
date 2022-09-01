@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MessageModel.h</key>
 		<data>
-		3rM8ZZdxLwHY8Uc3BWPkSzAwG7Y=
+		wtXREAGmdx5l+JWwYaAPrFfMQ50=
 		</data>
 		<key>Headers/PLPlayerView.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/QNChat.h</key>
 		<data>
-		iAv7MQRWR40Z13anlUjsBsxQAzw=
+		FvkPXrHn02sHcWTOil2dCwatr20=
 		</data>
 		<key>Headers/QNLiveRoom.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/QNLiveSDKManager.h</key>
 		<data>
-		m2XcUW7aZVL0RIGZWHPDc4jO1iE=
+		2Y6uKvpcRn3BJa8rqET4mOFSOv0=
 		</data>
 		<key>Headers/QNLottery.h</key>
 		<data>
@@ -284,11 +284,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3rM8ZZdxLwHY8Uc3BWPkSzAwG7Y=
+			wtXREAGmdx5l+JWwYaAPrFfMQ50=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZKmZTWocpfhbNXDGEOJhbeDyCDEmalyZ75xjw5z41wY=
+			5BKOn4LV726QNH73rgI26gfEowbHexhe/wMnPEn70sA=
 			</data>
 		</dict>
 		<key>Headers/PLPlayerView.h</key>
@@ -339,11 +339,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iAv7MQRWR40Z13anlUjsBsxQAzw=
+			FvkPXrHn02sHcWTOil2dCwatr20=
 			</data>
 			<key>hash2</key>
 			<data>
-			zqsLe5Np/eSm5579KY4SSJm4kxe+36ihBbIlaZUdi1w=
+			hyA7hjXg3xos/59k4Tu5k1uYdJFZSK0HGp1Mbgz/AYc=
 			</data>
 		</dict>
 		<key>Headers/QNLiveRoom.h</key>
@@ -383,11 +383,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m2XcUW7aZVL0RIGZWHPDc4jO1iE=
+			2Y6uKvpcRn3BJa8rqET4mOFSOv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			nLItfWUqSP+57WRoxxPRi1cAoj8Gdh7GsfldR1tlbXU=
+			mbBDttFBjkcb+Dfq1ZV5Sxh7cnHqFk70U6sWPZGHfTw=
 			</data>
 		</dict>
 		<key>Headers/QNLottery.h</key>

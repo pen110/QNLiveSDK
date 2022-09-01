@@ -37,11 +37,16 @@ typedef void ( ^successBlock) (id content);
 //商品列表
 - (void)qnChatWithGooods;
 
-
 /// 送礼通知
-/// @param manager manager description
+/// @param chat chat description
 /// @param gift gift description
 -(void)qnchat:(QNChat *)chat sendGift:(nullable attModel *)gift;
+
+
+/// 打开红包 has_red = 1
+/// @param chat chat description
+/// @param redPacket gift description
+-(void)qnchat:(QNChat *)chat hasRedPacket:(nullable textModel *)redPacket;
 
 
 @end
