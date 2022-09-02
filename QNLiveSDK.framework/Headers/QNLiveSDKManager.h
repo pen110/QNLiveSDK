@@ -142,7 +142,6 @@ typedef void ( ^successBloc) (id content);
 /// @param redPacket redPacket description
 -(void)qnManager:(QNLiveSDKManager *)manager hasRedPacket:(nullable textModel *)redPacket;
 
-
 @end
 
 @interface QNLiveSDKManager : NSObject
@@ -184,7 +183,14 @@ typedef void ( ^successBloc) (id content);
 
 /// 返回一个100*100 的image
 /// liveRoomInfo: error 此方法中返回share_card 和share_url
-- (UIImage *)setupQRCodeImage;
+//- (UIImage *)setupQRCodeImage;
+
+
+/// 邀请卡
+/// @param params 直播间id liveId
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getWatchMakeShareCard:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
 /**
  直播间信息，点赞，排行榜
