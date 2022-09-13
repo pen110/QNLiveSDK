@@ -87,6 +87,16 @@ typedef void ( ^successBlock) (id content);
 /// @param failure failure
 - (void)delMessageWithDict:(NSDictionary *)dict successBloc:(successBlock)successBlock failure:(void (^)(NSError * _Nonnull))failure;
 
+
+/// 发送消息(禁言用户还能发送消息的方案)
+///  liveId
+/// msg_type（text，image）,
+/// content：如果是image 传base64
+/// @param params params description
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getCourseSendChatMsg:(NSDictionary *)params successBloc:(successBlock)successBlock failure:(void (^)(NSError * _Nonnull))failure;
+
 @end
 
 NS_ASSUME_NONNULL_END
