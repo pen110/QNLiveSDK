@@ -192,6 +192,13 @@ typedef void ( ^successBloc) (id content);
 /// @param failure failure description
 - (void)getWatchMakeShareCard:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
+
+/// 获取主播个人信息
+/// @param params 直播id liveId
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getAnchorUserinfo:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
 /**
  直播间信息，点赞，排行榜
  */
