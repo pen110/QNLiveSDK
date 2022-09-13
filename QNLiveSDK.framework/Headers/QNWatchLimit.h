@@ -23,7 +23,7 @@ typedef void ( ^successBloc) (id content);
 
 @property (nonatomic,weak)id<QNWatchLimitDelegate>watchDelegate;
 
-/// 获取个人信息
+/// 获取主播个人信息
 - (void)getUserinfosuccessBloc:(successBloc)successBloc failure:(void (^)(NSError * _Nonnull error))failure;
 
 
