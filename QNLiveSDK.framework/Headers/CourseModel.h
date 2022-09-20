@@ -141,6 +141,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 直播id
 @property (nonatomic,strong) NSString *ID;
 
+@property (nonatomic,strong) NSString *url_rtmp;
 /// 直播拉流地址
 @property (nonatomic,strong) NSString *url_hls;
 
