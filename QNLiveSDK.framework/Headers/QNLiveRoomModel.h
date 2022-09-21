@@ -36,6 +36,8 @@ NS_ASSUME_NONNULL_BEGIN
 /** 点赞数 */
 @property (nonatomic,assign) NSInteger like_count;
 
+@property (nonatomic,assign) NSInteger sign_course;
+
 /** 美化后点赞数 */
 @property (nonatomic,assign) NSInteger dummy_like_count;
 
