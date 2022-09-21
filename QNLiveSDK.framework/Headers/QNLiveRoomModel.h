@@ -35,7 +35,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** 点赞数 */
 @property (nonatomic,assign) NSInteger like_count;
-
 @property (nonatomic,assign) NSInteger sign_course;
 
 /** 美化后点赞数 */
@@ -43,6 +42,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** 是否被禁言 */
 @property (nonatomic,assign) BOOL is_forbidden;
+
+/**全体禁言*/
+@property (nonatomic,assign) BOOL isProhibit;
 
 /** 是否被踢出直播间 */
 @property (nonatomic,assign) BOOL is_kickout;
