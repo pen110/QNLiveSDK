@@ -55,3 +55,5 @@ FOUNDATION_EXPORT const unsigned char QNLiveSDKVersionString[];
 #import <QNLiveSDK/QNOnLineNumModel.h>
 //礼物排行榜
 #import <QNLiveSDK/QNRankingGiftModel.h>
+#import <QNLiveSDK/QNKickOutListModel.h>
+

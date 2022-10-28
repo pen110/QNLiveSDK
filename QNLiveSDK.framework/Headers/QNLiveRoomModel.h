@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 /** 1是直播，2直播生成的回放，3是录播，*/
 @property (nonatomic,assign) int isRecorde;
 
-//# 1-正在直播 2-未开始 3-主播不在 4-已结束
+//# 1-正在直播 2-未开始 3-主播不在 4-已结束 5 -超管关闭直播间
 @property (nonatomic,assign) int live_status;
 
 /// 是否允许观看回放
@@ -26,6 +26,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *start_time;
 /** 封面图 */
 @property (nonatomic,copy) NSString *cover;
+///水印图片url
+@property (nonatomic,strong) NSString *water_image;
 
 /** 真实直播浏览量 */
 @property (nonatomic,assign) NSInteger pv_count;

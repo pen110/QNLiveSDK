@@ -31,6 +31,8 @@
 #import "QNApplyFormModel.h"
 NS_ASSUME_NONNULL_BEGIN
 typedef void ( ^successBloc) (id content);
+// 请求失败
+typedef void (^failure)(id error);
 @class QNLiveSDKManager;
 
 #pragma mark - delegate
@@ -199,6 +201,42 @@ typedef void ( ^successBloc) (id content);
 /// @param failure failure description
 - (void)getAnchorUserinfo:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
+/// 踢出直播间
+/// @param params course_id,直播间id，image头像，nickname昵称，user_id用户id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getWatchAddKickOut:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+/// 黑名单列表
+/// @param params liveId直播间id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getWatchListKickOut:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+/// 移除黑名单
+/// @param params 移除黑名单列表中的id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getWatchDelKickOut:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+/// 禁言某人
+/// @param params image,nickname,user_id,liveId
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getWatchAddForbidden:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+
+/// 解开禁言
+/// @param params 禁言列表中的id 和 userId 被禁言者的个人id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getWatchDelForbiddenWords:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+
+/// 超管关闭直播间（无法重新开播，也没有回放，增加一个新状态，超管发一个leancloud消息告诉主播，强制关闭直播）
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)SuperTubeStopLiveSuc:(successBloc)successBlock failure:(failure)failure;
 /**
  直播间信息，点赞，排行榜
  */
@@ -208,7 +246,7 @@ typedef void ( ^successBloc) (id content);
 @property (nonatomic,strong)QNChat *_Nullable chat;
 
 /**播放器*/
-@property(nonatomic,strong) PLPlayer *player;
+@property(nonatomic,strong) PLPlayer *_Nullable player;
 //初始化播放器
 -(PLPlayer *)initializePlayer;
 

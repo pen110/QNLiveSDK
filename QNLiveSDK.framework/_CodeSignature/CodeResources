@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/CourseModel.h</key>
 		<data>
-		FSszpQRiJf4yMR4RO/EFMC5O1/c=
+		9vFOa44cLgGkaOlio/+lorU1gWc=
 		</data>
 		<key>Headers/EnterpriseModel.h</key>
 		<data>
@@ -40,21 +40,25 @@
 		<data>
 		0UdUuWtgKDQ7/Hl9ndymjlSSEb0=
 		</data>
+		<key>Headers/QNKickOutListModel.h</key>
+		<data>
+		t5YFGkSDTIf15XielOvIhYgjxbg=
+		</data>
 		<key>Headers/QNLiveRoom.h</key>
 		<data>
 		tE8Glwc0+pQZoitJ/bea4qFQDhk=
 		</data>
 		<key>Headers/QNLiveRoomModel.h</key>
 		<data>
-		PPPiQjSE7/FYH+sgVrAo4zcZ+3Y=
+		hk/3DWnPm50G1EqMWLUO79d9cOw=
 		</data>
 		<key>Headers/QNLiveSDK.h</key>
 		<data>
-		fYp7ThTnSEPAVpJpfKUbwTZ7lSk=
+		WnxMpviGILypEH6jLEmzvpHlxgo=
 		</data>
 		<key>Headers/QNLiveSDKManager.h</key>
 		<data>
-		23alj827vHVpWep4LNjEL/p0gyU=
+		hzVdG1Y9vlvPg/EMSZayAtV5VpQ=
 		</data>
 		<key>Headers/QNLottery.h</key>
 		<data>
@@ -262,11 +266,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FSszpQRiJf4yMR4RO/EFMC5O1/c=
+			9vFOa44cLgGkaOlio/+lorU1gWc=
 			</data>
 			<key>hash2</key>
 			<data>
-			guz4Qh9JmtLHPUMXog48XLSds+wi9PjQ2BUtHPBUl+c=
+			tDeJnClCKCj4H66i23Fs15BE5ca7gKECc/T8JMIyty4=
 			</data>
 		</dict>
 		<key>Headers/EnterpriseModel.h</key>
@@ -346,6 +350,17 @@
 			MIiIsBuCql9y7vsASir7Q87Y70GZ5vAkwcMgQoDzmwc=
 			</data>
 		</dict>
+		<key>Headers/QNKickOutListModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t5YFGkSDTIf15XielOvIhYgjxbg=
+			</data>
+			<key>hash2</key>
+			<data>
+			DIIo1JpSgVIBgQQn40cHw7EKcgzs/2gdrNUPtWwmv5Y=
+			</data>
+		</dict>
 		<key>Headers/QNLiveRoom.h</key>
 		<dict>
 			<key>hash</key>
@@ -361,33 +376,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PPPiQjSE7/FYH+sgVrAo4zcZ+3Y=
+			hk/3DWnPm50G1EqMWLUO79d9cOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			3iIJaxBqoSNYdbTlosTik+Rs9f6vdERu8icxmjBagP8=
+			V55/vYW6xflJbyGywzz7LtDIvd80KWMsvL2AZe/molY=
 			</data>
 		</dict>
 		<key>Headers/QNLiveSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fYp7ThTnSEPAVpJpfKUbwTZ7lSk=
+			WnxMpviGILypEH6jLEmzvpHlxgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			tlGH9AJCtYN9jV3/lGAbznz2Cii1mzJbv+3lmqP8Bpw=
+			qU41nr6xEMaRmj8Ecxi3UhIw7WJaiuM0en8VLFAK0ns=
 			</data>
 		</dict>
 		<key>Headers/QNLiveSDKManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			23alj827vHVpWep4LNjEL/p0gyU=
+			hzVdG1Y9vlvPg/EMSZayAtV5VpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			fYwCHhwO3gowfSfRfJgidctuzVwY5/xgaxyCqetJsho=
+			5PmDJnXaV8HAAgPRPm2BR0pRn5QmY3zMiXc4JoFD4IQ=
 			</data>
 		</dict>
 		<key>Headers/QNLottery.h</key>

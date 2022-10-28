@@ -238,8 +238,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 是否有问卷、考试、投票
 @property (nonatomic,assign) BOOL qev_exists;
 
-// 是否开启水印
+/// 是否开启水印
 @property (nonatomic,assign) BOOL watermark;
+///水印图片url
+@property (nonatomic,strong) NSString *water_image;
 
 /// 互动白板uuid
 @property (nonatomic,strong) NSString *white_board_uuid;
