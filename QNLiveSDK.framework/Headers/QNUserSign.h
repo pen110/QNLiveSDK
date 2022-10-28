@@ -21,8 +21,14 @@ typedef void ( ^successBloc) (id content);
 
 @property (nonatomic,weak)id<UserSignDelegate>signDelegate;
 /// 签到
-/// @param liveID liveID
--(void)userSignWithLiveId:(NSString *)liveID successBloc:(nullable successBloc)successBloc failure:(nullable void (^)(NSError * nullable))failure;
+/// @param params
+/// liveId直播间id
+/// image 头像
+/// nickname 昵称
+/// userId 用户id
+/// @param successBloc successBloc description
+/// @param failure failure description
+-(void)userSignWithLiveId:(NSDictionary *)params successBloc:(nullable successBloc)successBloc failure:(nullable void (^)(NSError * nullable))failure;
 
 @end
 
