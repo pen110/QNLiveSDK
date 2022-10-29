@@ -37,6 +37,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *type;
 
 @property(nonatomic,strong) NSString *third_user_id;//第三方id
+
+/**1－管理员, 2-超管, 3-讲师, 4-直播助手 5-普通用户 6-匿名用户 7-子账号*/
+@property(nonatomic,assign) int user_type;
 @end
 
 NS_ASSUME_NONNULL_END

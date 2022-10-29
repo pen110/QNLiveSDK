@@ -42,6 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *owner_id;
 @property (nonatomic,strong) NSString *phone;
 @property (nonatomic,strong) NSString *position;
+//# 1－管理员, 2-超管, 3-讲师, 4-直播助手 5-普通用户 6-匿名用户 7-子账号
 @property (nonatomic,assign) int type;
 @end
 

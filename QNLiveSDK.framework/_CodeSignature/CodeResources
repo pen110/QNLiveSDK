@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BaseMessageModel.h</key>
 		<data>
-		CNz4CdCXF9aectRxLwvlyNgwsYg=
+		KGLHqo88B5dJWfxhm+TS/8uj+p8=
 		</data>
 		<key>Headers/CourseModel.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MessageModel.h</key>
 		<data>
-		GYPODsHIy5KtzvPcroWgdvtxKAU=
+		mvS8n6iQdhwxxeyhYDvqvwggrBA=
 		</data>
 		<key>Headers/PLPlayerView.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Headers/UserInfoModel.h</key>
 		<data>
-		p+xGBJEXekbf1N4EA6Ks09894FM=
+		dSzUoOLgarTru/KoKFBQnUrpyXY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -255,11 +255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CNz4CdCXF9aectRxLwvlyNgwsYg=
+			KGLHqo88B5dJWfxhm+TS/8uj+p8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ixOWooJPXZ5lmYG46qbQwR1ZKhwZQmjXtlRB5hbPl0w=
+			9e6bz1+ia76XPB2B5NC1TOlnz/mdHLKYB7HPrvpNXiI=
 			</data>
 		</dict>
 		<key>Headers/CourseModel.h</key>
@@ -288,11 +288,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GYPODsHIy5KtzvPcroWgdvtxKAU=
+			mvS8n6iQdhwxxeyhYDvqvwggrBA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6YoSJ+O9NHV/kzYj4ZivuMpLLkTSfi9wD/bIE9Nn0jc=
+			74UqIcMJ3cncM9huUrgEsmtKhrQbaHnR4VGdO4w1Jeo=
 			</data>
 		</dict>
 		<key>Headers/PLPlayerView.h</key>
@@ -508,11 +508,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p+xGBJEXekbf1N4EA6Ks09894FM=
+			dSzUoOLgarTru/KoKFBQnUrpyXY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7a7eFAMZQZJqnMvw8cvdSVZasj0++Kew/6xcaZojljY=
+			fxsDUk5yFKyF0RhBodv1RGX5YE1awPSUYQFSeoYlUJ8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
