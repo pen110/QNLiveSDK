@@ -225,6 +225,11 @@ typedef void (^failure)(id error);
 /// @param failure failure description
 - (void)getWatchAddForbidden:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
+/// 禁言列表
+/// @param params 直播间id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getWatchListForbiddenWords:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
 /// 解开禁言
 /// @param params 禁言列表中的id 和 userId 被禁言者的个人id
