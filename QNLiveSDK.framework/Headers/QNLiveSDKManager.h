@@ -225,6 +225,7 @@ typedef void (^failure)(id error);
 /// @param failure failure description
 - (void)getWatchAddForbidden:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
+
 /// 禁言列表
 /// @param params 直播间id
 /// @param successBlock successBlock description
