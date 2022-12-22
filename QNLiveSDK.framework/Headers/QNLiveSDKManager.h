@@ -239,10 +239,11 @@ typedef void (^failure)(id error);
 - (void)getWatchDelForbiddenWords:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
 
-/// 超管关闭直播间（无法重新开播，也没有回放，增加一个新状态，超管发一个leancloud消息告诉主播，强制关闭直播）
+/// 超管关闭手机直播间（无法重新开播，也没有回放，增加一个新状态，超管发一个leancloud消息告诉主播，强制关闭直播）
 /// @param successBlock successBlock description
 /// @param failure failure description
 - (void)SuperTubeStopLiveSuc:(successBloc)successBlock failure:(failure)failure;
+
 /**
  直播间信息，点赞，排行榜
  */
